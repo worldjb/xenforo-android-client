@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WorldJB</string>
+
+    <string name="title_section1">Категории</string>
+    <string name="title_section2">Переписки</string>
+    <string name="title_section3">Пользователи</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Настройки</string>
+</resources>

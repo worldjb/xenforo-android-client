@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:colorPrimary">#ff6089bb</item>
+        <item name="android:colorPrimaryDark">#ff48678b</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <!-- <item name="android:statusBarColor">#ff48678b</item> -->
+        <item name="android:navigationBarColor">#42000000</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <!-- <item name="actionOverflowButtonStyle">@style/OverflowButton</item> -->
+    </style>
+
+    <!-- Set Custom Icon for Overflow Button in ActionBar -->
+    <!-- <style name="OverflowButton" parent="@style/Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_more_vert_white_24dp</item>
+    </style> -->
+
+</resources>
