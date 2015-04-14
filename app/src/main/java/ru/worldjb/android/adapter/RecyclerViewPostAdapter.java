@@ -104,17 +104,7 @@ public class RecyclerViewPostAdapter extends RecyclerView.Adapter<RecyclerViewPo
 
 		viewHolder.username.setText(post.poster_username);
 
-		String group = "";
-		if(user.user_groups != null) {
-			for (UserGroup ug : user.user_groups) {
-				if (ug.is_primary_group) {
-					group = ug.user_group_title;
-				}
-			}
-		} else {
-			group = "Гости не видят группу";
-		}
-		viewHolder.usergroup.setText(group);
+		viewHolder.usergroup.setText(user.user_title);
 
 		viewHolder.post.setText(post.post_body_plain_text);
 	}
